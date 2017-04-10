@@ -1,4 +1,4 @@
-git adsa pull
+git pull
 git add -A 
-git commit -m 'test1'
+git commit -m 'test2'
 git push
