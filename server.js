@@ -4,5 +4,6 @@ exec('update.bat', (err, stdout, stderr) => {
     console.error(err);
     return;
   }
+  console.log('\033[2J');
   console.log(stdout);
 });
