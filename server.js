@@ -1,4 +1,4 @@
-console.log(1)
+console.log(3331)
 const exec = require('child_process').exec;
 setInterval(function(){
 	exec('update.bat', (err, stdout, stderr) => {
